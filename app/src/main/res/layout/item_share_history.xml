@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/icon_history"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_menu_compass"
+        android:tint="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_share_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 24, 15:30"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_share_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS · 3 contacts"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout> 

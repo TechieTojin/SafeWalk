@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="SOS Alert" />
+        <item
+            android:id="@+id/nav_safety_features"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Safety Features" />
+        <item
+            android:id="@+id/nav_safe_route"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Safe Route" />
+        <item
+            android:id="@+id/nav_report_incident"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Report Incident" />
+        <item
+            android:id="@+id/nav_my_reports"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Reports" />
+        <item
+            android:id="@+id/nav_community_reports"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Community Reports" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu> 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+
+    <!-- Shield Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,30L160,60v40c0,45 -25,70 -60,85c-35,-15 -60,-40 -60,-85V60L100,30z" />
+
+    <!-- Walking Person -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,65m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M115,95l-10,-10l-10,10l-15,35l10,5l10,-25l0,40l10,0l0,-40l10,25l10,-5z" />
+
+    <!-- Safety Path -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M60,140c25,-10 55,-10 80,0" />
+</vector> 

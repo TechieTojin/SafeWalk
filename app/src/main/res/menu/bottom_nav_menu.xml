@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_sos"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="SOS" />
+    <item
+        android:id="@+id/navigation_safety"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Safety" />
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Community" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Settings" />
+</menu> 
